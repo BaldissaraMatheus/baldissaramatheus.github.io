@@ -1,0 +1,28 @@
+{
+  "name": "baldissaramatheus.github.io",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baldissaramatheus/baldissaramatheus.github.io.git"
+  },
+  "author": "Matheus Baldissara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baldissaramatheus/baldissaramatheus.github.io/issues"
+  },
+  "homepage": "https://github.com/baldissaramatheus/baldissaramatheus.github.io#readme",
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-mustache-plus": "^1.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {}
+}
