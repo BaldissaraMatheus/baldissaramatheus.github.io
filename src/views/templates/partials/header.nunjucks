@@ -1,10 +1,10 @@
 <header>
-  <nav>
-    <ul>
-      <li><a href='#'>Sobre</a></li>
+  <nav class='nav'>
+    <ul class='nav__list'>
+      <li class='selected'><a href='#'>Sobre</a></li>
       <li><a href='#'>Trabalho</a></li>
       <li><a href='#'>Contato</a></li>
-      <li><a href='#'>Matheus Baldissara <i class='fa'></i></a></li>
+      {#<li>    <a href='#' class='github'>Matheus Baldissara <i class='fa'></i></a></li>#}
     </ul>
   </nav>
 </header>

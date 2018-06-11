@@ -1,0 +1,11 @@
+@mixin shadow($lft, $btm, $rgt, $top, $qt) {
+  -webkit-box-shadow: $lft $btm $rgt $top rgba(17,22,30,$qt);
+  -moz-box-shadow: $lft $btm $rgt $top rgba(17,22,30,$qt);
+  box-shadow: $lft $btm $rgt $top rgba(17,22,30,$qt);
+}
+
+@mixin breakpoint($sz) {
+  @media only screen and (max-width: $sz) {
+    @content;
+  }
+}

@@ -1,4 +1,5 @@
 const gulp = require('gulp');
+const rename = require('gulp-rename');
 const nunjucksRender = require('gulp-nunjucks-render');
 const ghPages = require('gulp-gh-pages');
 const sass = require('gulp-sass');
@@ -15,7 +16,8 @@ gulp.task('nunjucks', () => {
 
 gulp.task('sass', () => {
   return gulp.src(['src/scss/main.scss'])
-    .pipe(sass())
+    .pipe(sass({outputStyle: 'compressed'}))
+    .pipe(rename('main.min.css'))
     .pipe(gulp.dest('dist'));
 });
 

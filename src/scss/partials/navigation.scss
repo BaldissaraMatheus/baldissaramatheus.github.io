@@ -1,0 +1,83 @@
+.nav {
+  position: fixed;
+  height: 100%;
+  width: 25%;
+  max-width: 300px;
+  background-color: $black;
+  @include shadow(10px, 0, 5px, 0px, 0.07);
+  
+  @include breakpoint($sm) {
+    height: 60px;
+    min-width: 100%;
+  }
+}
+
+.nav__list {
+  padding: 0;
+  margin-top: $mt_lg;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+
+  @include breakpoint($sm) {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: $mt_sm;
+  }
+
+  li {
+    padding-top: 9px; 
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    @include breakpoint($sm) {
+      padding: 0 10px 0 10px;   
+    }
+
+    &:hover {
+      background-color: $lighten-black;
+    }
+
+    a {
+      text-decoration: none;
+      color: $white;      
+    }
+  }
+}
+
+.selected {
+  background-color: $lighten-black;
+  margin-left: -20px;
+
+  @include breakpoint($sm) {
+    margin: 0;      
+  }
+
+  &::before {
+    display: inline;
+    padding: 9px 0 9px 4px;    
+    margin-right: 20px;
+    background-color: $blue;
+    content: '';
+
+    @include breakpoint($sm) {
+      display: none;
+      padding: 5px 0 0 50px;
+      margin-top: 20px;
+    }
+  }
+
+  &::after {
+    display: none;
+    background-color: $blue;
+    content: '';
+
+    @include breakpoint($sm) {
+      display: block;
+      width: 100%;
+      padding: 0 10px 5px 0;
+      margin: ($mt_sm - 3px) 0 -4px 0; 
+    }
+  }
+}
