@@ -9,6 +9,9 @@
   <link rel='stylesheet' type='text/css' href='stylesheets/materialize.min.css'> 
 </head>
 
+{% include  'partials/header.nunjucks' %}
+{% block content %} {% endblock %}
+
 <script src='javascript/main.js'></script>
 
 </html>

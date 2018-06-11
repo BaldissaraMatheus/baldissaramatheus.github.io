@@ -1,0 +1,10 @@
+<header>
+  <nav>
+    <ul>
+      <li><a href='#'>Sobre</a></li>
+      <li><a href='#'>Trabalho</a></li>
+      <li><a href='#'>Contato</a></li>
+      <li><a href='#'>Matheus Baldissara <i class='fa'></i></a></li>
+    </ul>
+  </nav>
+</header>
