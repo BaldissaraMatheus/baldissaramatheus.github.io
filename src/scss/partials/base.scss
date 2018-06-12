@@ -5,3 +5,24 @@
 body {
   background-color: $gray;
 }
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: darken($blue, 30%);
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: $black;
+}
+
+.picture {
+  display: block;
+  margin: auto;
+}
