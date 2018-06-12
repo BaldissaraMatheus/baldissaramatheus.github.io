@@ -17,12 +17,28 @@ a {
 }
 
 hr {
+  display: block;
   border: 0;
   height: 1px;
-  background: $black;
+  background: transparentize($black, 0.7);
+}
+
+strong {
+  font-weight: 600;
 }
 
 .picture {
   display: block;
   margin: auto;
+  max-width: 100%;
+}
+
+.picture-caption {
+  text-align: center;
+  margin: 15px 0 0 0;
+}
+
+.float-right {
+  float: right;
+  margin-bottom: 20px;
 }

@@ -1,10 +1,13 @@
 <header>
   <nav class='nav'>
     <ul class='nav__list'>
-      <li class='selected'><a href='#'>Sobre</a></li>
-      <li><a href='#'>Trabalho</a></li>
-      <li><a href='#'>Contato</a></li>
-      {#<li>    <a href='#' class='github'>Matheus Baldissara <i class='fa'></i></a></li>#}
+      <li {% if selected == 'sobre' %}class='selected'{% endif %}><a href='./'>Sobre</a></li>
+      <li {% if selected == 'trabalho' %}class='selected'{% endif %}><a href='./trabalho.html'>Trabalho</a></li>
+      <li {% if selected == 'contato' %}class='selected'{% endif %}><a href='./contato.html'>Contato</a></li>
+      <li class='github'><a href='https://github.com/BaldissaraMatheus' target='_blank' rel='noopener'>
+        <p>Matheus Baldissara</p>
+        <span></span>
+      </a></li>
     </ul>
   </nav>
 </header>

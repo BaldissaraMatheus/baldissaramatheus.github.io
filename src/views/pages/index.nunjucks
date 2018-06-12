@@ -1,11 +1,10 @@
 {% extends 'layout.nunjucks' %}
-
-{% set title = 'Matheus Baldissara | Desenvolvedor' %}
+{% set selected = 'sobre' %}
 
 {% block content %}
   <section>
     <div class='row'>
-      <h1>Oie, eu sou Matheus Baldissara e sou desenvolvedor</h1>
+      <h1>Oie, meu nome é Matheus Baldissara e sou desenvolvedor</h1>
       <p>Trabalho com desenvolvimento há mais de 5 anos e já programei em muitas linguagens, como C e Java, mas a minha verdadeira paixão é criar coisas para a web. Gosto de cada etapa do processo, do design ao deployment, mas acredito que minha especialidade esteja no front-end, em criar um código eficiente e entregar uma boa experiência ao usuário.</p>
       <p></p>
     </div>
@@ -18,7 +17,7 @@
   <section>
     <div class='row'>
       <h1>Formação acadêmica</h1>
-      <p>Meu trajeto começou no ensino médio, onde fiz um curso médio-técnico de informática da FAETEC, no <a href='https://pt.wikipedia.org/wiki/Instituto_Superior_de_Educa%C3%A7%C3%A3o_do_Rio_de_Janeiro' target='_blank' rel='noopener'>Instituto Superior de Educação do Rio de Janeiro</a>, um dos colégios mais antigos e tradicionais do Rio. Lá eu tive meu primeiro contato com o mundo da computação e foi uma eperiência incrível, o que me levou a decidir em dar continuidade à minha formação nesse ramo.</p>
+      <p>Meu trajeto começou no ensino médio, onde fiz um curso médio-técnico de informática da FAETEC, no <a href='https://pt.wikipedia.org/wiki/Instituto_Superior_de_Educa%C3%A7%C3%A3o_do_Rio_de_Janeiro' target='_blank' rel='noopener'>Instituto Superior de Educação do Rio de Janeiro</a>, um dos colégios mais antigos e tradicionais do Rio. Lá eu tive meu primeiro contato com o mundo da computação e foi uma experiência incrível, o que me levou a decidir em dar continuidade à minha formação nesse ramo.</p>
     </div>
 
     <div class='row'>
@@ -48,6 +47,7 @@
 
     <div class='row'>
       <img src='assets/editor.png' alt='Meu editor de texto' width='800px' class='picture'>   
+      <h5 class='picture-caption'>Print do meu editor enquanto escrevo esse site</h5>      
     </div>
 
   </section> 
@@ -67,7 +67,7 @@
     </div>
     <div class='row'>
      <h3>Html5, Css3 e Javascript</h3>
-     <p>Acho mais importante que conhecar 1000 frameworks, linguagens e ferramentas, é ser bom nos fundamentos desses três caras. Em todos os meus projetos eu tento manter meu código organizado, limpo e eficiente, trabalhando com princípios de modularidade e semântica.</p>
+     <p>Acho mais importante que conhecer frameworks, linguagens e ferramentas, é ser bom nos fundamentos do desenvolvimento web. Em todos os meus projetos eu tento manter meu código organizado, limpo e eficiente, trabalhando com padrões de modularidade e semântica.</p>
     </div>
 
     <div class='row'>
@@ -102,18 +102,17 @@
 
     <div class='row'>
       <h3>Demais conhecimentos</h3>
-      <p>Eu tenho também experiência com Express, MongoDB, Heroku, e outras mais linguagens e ferramentas. Maior descrição está nas <a>páginas dos meus projetos</a></p>
+      <p>Eu tenho também experiência com Express, MongoDB, Heroku, e outras mais linguagens e ferramentas. Maior descrição está nas <a href='./trabalho.html'>páginas dos meus projetos</a></p>
     </div>
   </section>
 
   <div class='row'>
     <hr>
   </div>
-  
 
   <section>
     <div class='row'>     
-    <p>Obrigado por visitar minha página e tenha uma boa $DIADASEMANA$! :)</p>   
+    <p>Obrigado por visitar minha página e tenha um bom dia! :)</p>   
     </div>
   </section>
 
