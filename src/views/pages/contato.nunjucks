@@ -1,9 +1,0 @@
-{% extends 'layout.nunjucks' %}
-{% set selected = 'contato' %}
-
-{% block content %}
-  <div class='row'>
-    <h1>Contato</h1>
-    <p>Entre em contato a partir do meu email pessoal: <strong>baldissaramatheus@gmail.com</strong></p>
-  </div>
-{% endblock %}
