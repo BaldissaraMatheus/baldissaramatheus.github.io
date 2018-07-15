@@ -18,7 +18,6 @@
   "homepage": "https://github.com/baldissaramatheus/baldissaramatheus.github.io#readme",
   "devDependencies": {
     "gulp": "github:gulpjs/gulp#4.0",
-    "gulp-gh-pages": "^0.5.4",
     "gulp-imagemin": "^4.1.0",
     "gulp-nunjucks-render": "^2.2.2",
     "gulp-rename": "^1.2.3",

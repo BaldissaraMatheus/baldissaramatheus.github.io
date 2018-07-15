@@ -21,8 +21,12 @@
   <div class='row'>
     <hr>
   </div> 
+  {% include 'posts/puzzle.nunjucks' %}
   <div class='row'>
-  <p>Veja mais projetos na <a href='https://github.com/BaldissaraMatheus' target='_blank' rel='noopener'>minha página do Github!</a></p>
+    <hr>
+  </div> 
+  <div class='row'>
+    <p>Veja mais projetos na <a href='https://github.com/BaldissaraMatheus' target='_blank' rel='noopener'>minha página do Github!</a></p>
   </div>
 
 {% endblock %}

@@ -1,7 +1,6 @@
 const gulp = require('gulp');
 const rename = require('gulp-rename');
 const nunjucksRender = require('gulp-nunjucks-render');
-const ghPages = require('gulp-gh-pages');
 const sass = require('gulp-sass');
 const uglify = require('gulp-uglify');
 const imagemin = require('gulp-imagemin');
@@ -31,11 +30,6 @@ gulp.task('imagemin', () => {
   return gulp.src(['src/assets/*.png', 'src/assets/*.svg', 'src/assets/*.jpg'])
     .pipe(imagemin())
     .pipe(gulp.dest('dist/assets'));
-});
-
-gulp.task('deploy', () => {
-  return gulp.src('./dist/**/*')
-    .pipe(ghPages());
 });
 
 gulp.task('watch', function(){ 

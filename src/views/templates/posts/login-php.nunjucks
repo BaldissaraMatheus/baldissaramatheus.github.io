@@ -8,9 +8,5 @@
 </div>
 
 <div class='row'>
-  <p>Esse site ainda não foi ao ar porque necessita de um sistema de banco de dados, e eu ainda não pude encontrar uma plataforma segura que ofereça isso de graça, mas espero no futuro encontrar.</p>
-</div>
-
-<div class='row'>
-  <a href='https://github.com/BaldissaraMatheus/login-system' target='_blank' rel='noopener'>Ver repositório do github</a>
+  <a href='https://github.com/BaldissaraMatheus/login-system' target='_blank' rel='noopener'>Repositório do github</a>
 </div>
